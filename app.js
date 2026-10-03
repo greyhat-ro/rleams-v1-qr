@@ -1,7 +1,7 @@
 /* ---- Config: paste your Supabase values (Project Settings > API) to go live. Leave blank for demo mode.
    The anon/publishable key is safe to commit. Never put the database password or service_role key here. ---- */
-const SUPABASE_URL = "";       // e.g. "https://abcdxyz.supabase.co"
-const SUPABASE_ANON_KEY = "";  // the anon / publishable key
+const SUPABASE_URL = "https://ydvqryfochhebjldylpy.supabase.co";       // e.g. "https://abcdxyz.supabase.co"
+const SUPABASE_ANON_KEY = "sb_publishable_4-nGIn23s4MVu1Nv17tUmA__vHyeMi2";  // the anon / publishable key
 
 const CATS = ["Robot arm","Mobile robot","Sensor","Controller","Electronics","Tool","3D printer","Other"];
 const LIVE = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
